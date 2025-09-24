@@ -19,10 +19,12 @@ local_settings.py
 .env.*
 !.env.example
 
-# --- Node / Vite (frontend) ---
+# --- Frontend (Vite/React) ---
 frontend/node_modules/
 frontend/dist/
 frontend/.vite/
+frontend/.env
+!frontend/.env.example
 
 # --- IDEs ---
 .idea/
